@@ -1,0 +1,27 @@
+{
+	"name": "amber-darker",
+	"displayName": "Amber Darker",
+	"description": "Tema escuro com acento âmbar/quente, em duas variantes: Amber e Amber Darker. Definições de função em amarelo, chamadas em branco.",
+	"version": "0.0.2",
+	"publisher": "filipeguidastri",
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Amber",
+				"uiTheme": "vs-dark",
+				"path": "./themes/amber-color-theme.json"
+			},
+			{
+				"label": "Amber Darker",
+				"uiTheme": "vs-dark",
+				"path": "./themes/amber-darker-color-theme.json"
+			}
+		]
+	}
+}
